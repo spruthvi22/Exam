@@ -1,0 +1,16 @@
+Problem 2
+in c to store the value we either have to use a long int or unsigned long int
+in python it is stored in class'int' with size of 32 bits (same a long int in c)
+
+Problem 3
+in c to use romberg integration we have to use three functions after includeing header gsl_integration.h
+gsl_integration_romberg_alloc, gsl_integration_romberg, gsl_integration_romberg_free
+Scipy function to integrate romberg is scipy.integrate.romberg
+
+Problem 4
+for finding root using bisection solver in gsl we need to first include gsl_root.h
+then initialize gsl_root_fsolver, then set gsl_root_fsolver_alloc(gsl_root_fsolver_bisection) the run gsl_root_fsolver_root
+In Python scipy.optmize.bisect is used to find the root
+
+Problem 5
+the value of theta = 0.48890034625286527
